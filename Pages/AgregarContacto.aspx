@@ -1,30 +1,49 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="AgregarContacto.aspx.vb" Inherits="Contactos_webform_asp_vb.AgregarContacto" %>
 
+<%@ Register Src="~/Controls/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
+
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Nuevo Contacto</title>
+    <link rel="stylesheet" href="~/Content/bootstrap/css/bootstrap.min.css" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Label ID="lblNombre" runat="server" Text="Nombre:"></asp:Label>
-            <asp:TextBox ID="txtNombre" runat="server" Width="212px"></asp:TextBox>
-            <br />
-            <asp:Label ID="lblApellido" runat="server" Text="Apellido:"></asp:Label>
-            <asp:TextBox ID="txtApellido" runat="server" Width="206px"></asp:TextBox>
-            <br />
-            <asp:Label ID="lblMail" runat="server" Text="Mail:"></asp:Label>
-            <asp:TextBox ID="txtMail" runat="server" Width="222px"></asp:TextBox>
-            <br />
-            <asp:Label ID="lblTelefono" runat="server" Text="Teléfono:"></asp:Label>
-            <asp:TextBox ID="txtTelefono" runat="server" Width="189px"></asp:TextBox>
-            <br />
-            <asp:Button ID="btnAgregar" runat="server" Text="Agregar Contacto"/>
-
+        <uc1:Header runat="server" ID="Header" />
+        <div class="container mt-4">
+            <h2 class="text-center mb-4">Nuevo Contacto</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="mb-3 text-center">
+                        <asp:Label ID="lblNombre" runat="server" Text="Nombre:" CssClass="form-label fw-bold"></asp:Label>
+                        <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control"></asp:TextBox>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <asp:Label ID="lblApellido" runat="server" Text="Apellido:" CssClass="form-label fw-bold"></asp:Label>
+                        <asp:TextBox ID="txtApellido" runat="server" CssClass="form-control"></asp:TextBox>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <asp:Label ID="lblMail" runat="server" Text="Mail:" CssClass="form-label fw-bold"></asp:Label>
+                        <asp:TextBox ID="txtMail" runat="server" CssClass="form-control"></asp:TextBox>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <asp:Label ID="lblTelefono" runat="server" Text="Teléfono:" CssClass="form-label fw-bold"></asp:Label>
+                        <asp:TextBox ID="txtTelefono" runat="server" CssClass="form-control"></asp:TextBox>
+                    </div>
+                    <div class="text-center">
+                        <asp:Button ID="btnAgregar" runat="server" Text="Agregar Contacto" CssClass="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
         </div>
+        <uc1:Footer runat="server" ID="Footer" />
     </form>
+    <script src="~/Content/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

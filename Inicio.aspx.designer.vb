@@ -23,6 +23,15 @@ Partial Public Class Inicio
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Control Header.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Header As Global.Contactos_webform_asp_vb.Header
+
+    '''<summary>
     '''Control btnNuevoContacto.
     '''</summary>
     '''<remarks>
@@ -30,6 +39,15 @@ Partial Public Class Inicio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnNuevoContacto As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control btnExportarXML.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnExportarXML As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control GridViewContactos.
@@ -41,11 +59,11 @@ Partial Public Class Inicio
     Protected WithEvents GridViewContactos As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''Control btnExportarXML.
+    '''Control Footer.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnExportarXML As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents Footer As Global.Contactos_webform_asp_vb.Footer
 End Class

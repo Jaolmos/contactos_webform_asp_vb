@@ -37,9 +37,36 @@ Contactos_webform_asp_vb
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:Contactos_webform_asp_vb.Header._HyperLinkInicio">
+<summary>
+Control HyperLinkInicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Contactos_webform_asp_vb.Header._HyperLinkAgregarLibro">
+<summary>
+Control HyperLinkAgregarLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Contactos_webform_asp_vb.Inicio._form1">
 <summary>
 Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Contactos_webform_asp_vb.Inicio._Header">
+<summary>
+Control Header.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -55,15 +82,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Contactos_webform_asp_vb.Inicio._GridViewContactos">
-<summary>
-Control GridViewContactos.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:Contactos_webform_asp_vb.Inicio._btnExportarXML">
 <summary>
 Control btnExportarXML.
@@ -73,9 +91,36 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Contactos_webform_asp_vb.Inicio._GridViewContactos">
+<summary>
+Control GridViewContactos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Contactos_webform_asp_vb.Inicio._Footer">
+<summary>
+Control Footer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Contactos_webform_asp_vb.AgregarContacto._form1">
 <summary>
 Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Contactos_webform_asp_vb.AgregarContacto._Header">
+<summary>
+Control Header.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -163,9 +208,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Contactos_webform_asp_vb.AgregarContacto._Footer">
+<summary>
+Control Footer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Contactos_webform_asp_vb.EditarContacto._form1">
 <summary>
 Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Contactos_webform_asp_vb.EditarContacto._Header">
+<summary>
+Control Header.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -247,6 +310,24 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Contactos_webform_asp_vb.EditarContacto._btnEditar">
 <summary>
 Control btnEditar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Contactos_webform_asp_vb.EditarContacto._btnCancelar">
+<summary>
+Control btnCancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Contactos_webform_asp_vb.EditarContacto._Footer">
+<summary>
+Control Footer.
 </summary>
 <remarks>
 Campo generado automáticamente.
