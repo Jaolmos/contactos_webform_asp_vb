@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfContactoDTO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContactoDTO>
+    <Id>1</Id>
+    <Nombre>Juan</Nombre>
+    <Apellido>Pérez</Apellido>
+    <Mail>juan.perez@example.com</Mail>
+    <Telefono>1234567890</Telefono>
+  </ContactoDTO>
+  <ContactoDTO>
+    <Id>2</Id>
+    <Nombre>María</Nombre>
+    <Apellido>González</Apellido>
+    <Mail>maria.gonzalez@example.com</Mail>
+    <Telefono>2345678901</Telefono>
+  </ContactoDTO>
+  <ContactoDTO>
+    <Id>3</Id>
+    <Nombre>Carlos</Nombre>
+    <Apellido>López</Apellido>
+    <Mail>carlos.lopez@example.com</Mail>
+    <Telefono>3456789012</Telefono>
+  </ContactoDTO>
+  <ContactoDTO>
+    <Id>4</Id>
+    <Nombre>Ana</Nombre>
+    <Apellido>Martínezz</Apellido>
+    <Mail>ana.martinez@example.com</Mail>
+    <Telefono>4567890123</Telefono>
+  </ContactoDTO>
+  <ContactoDTO>
+    <Id>5</Id>
+    <Nombre>Luis</Nombre>
+    <Apellido>García</Apellido>
+    <Mail>luis.garcia@example.com</Mail>
+    <Telefono>5678901234</Telefono>
+  </ContactoDTO>
+  <ContactoDTO>
+    <Id>12</Id>
+    <Nombre>Alberto </Nombre>
+    <Apellido>Sanchez Gomez</Apellido>
+    <Mail>albertsan@mimail.es</Mail>
+    <Telefono>666555442</Telefono>
+  </ContactoDTO>
+</ArrayOfContactoDTO>
