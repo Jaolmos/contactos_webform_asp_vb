@@ -23,7 +23,7 @@
             </div>
 
             <div class="table-responsive">
-                <asp:GridView ID="GridViewContactos" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-hover table-bordered text-center">
+                <asp:GridView ID="GridViewContactos" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-hover table-bordered text-center" AllowPaging="True" PageSize="10" OnPageIndexChanging="GridViewContactos_PageIndexChanging">
                     <Columns>
                         <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
                         <asp:BoundField DataField="Apellido" HeaderText="Apellido" />

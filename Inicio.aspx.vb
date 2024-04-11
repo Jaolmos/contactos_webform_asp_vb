@@ -45,4 +45,11 @@ Public Class Inicio
         Response.WriteFile(rutaArchivo)
         Response.End()
     End Sub
+
+    ' Paginación
+    Protected Sub GridViewContactos_PageIndexChanging(sender As Object, e As GridViewPageEventArgs)
+        GridViewContactos.PageIndex = e.NewPageIndex
+        CargarContactos()
+    End Sub
+
 End Class
