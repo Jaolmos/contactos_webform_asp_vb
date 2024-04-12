@@ -36,5 +36,4 @@ Aquí puedes ver la estructura de la tabla `Contactos` utilizada en la aplicaci�
 2. La base de datos y la tabla `Contactos` ya deben estar configuradas y listas para usarse dentro del proyecto.
 3. Compile y ejecute la aplicación en Visual Studio.
 
-## Licencia
-[MIT](LICENSE)
+
