@@ -17,7 +17,7 @@ Aquí puedes ver la estructura de la tabla `Contactos` utilizada en la aplicaci�
 ## Características
 - **Gestión de contactos**: Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre los contactos.
 - **Exportación a XML**: Facilita la exportación de la lista de contactos a un archivo XML.
-- **Diseño Responsivo**: Utiliza Bootstrap para asegurar una buena visualización en dispositivos móviles y de escritorio.
+- **Diseño Responsivo**: Utiliza Bootstrap para asegurar una buena visualización en dispositivos móviles.
 
 ## Estructura de Archivos
 - `Inicio.aspx`: Página principal que muestra la lista de contactos y las opciones para agregar un nuevo contacto o exportar la lista a XML.
