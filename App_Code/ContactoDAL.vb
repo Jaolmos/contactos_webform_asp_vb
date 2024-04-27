@@ -7,7 +7,8 @@ Public Class ContactoDAL
         Try
             Using conexion As SqlConnection = ConexionBD.ObtenerConexion()
                 conexion.Open()
-                Dim comando As New SqlCommand("SELECT Id, Nombre, Apellido, Mail, Telefono FROM Contactos", conexion)
+                Dim consulta As String = "SELECT Id, Nombre, Apellido, Mail, Telefono FROM Contactos"
+                Dim comando As New SqlCommand(consulta, conexion)
                 Using reader As SqlDataReader = comando.ExecuteReader()
                     While reader.Read()
                         Dim contacto As New ContactoDTO() With {
